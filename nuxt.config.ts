@@ -6,6 +6,7 @@ export default defineNuxtConfig({
       name: "Nuxt3 PWA",
       short_name: "Nuxt",
       description: "this is first test on PWA for nuxt3",
+      theme_color: '#eee',
       icons: [
         {src: 'android-launchericon-48-48.png', sizes: '48x48', type: 'image/png'},
         {src: 'android-launchericon-72-72.png', sizes: '72x72', type: 'image/png'},
