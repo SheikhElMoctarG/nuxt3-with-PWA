@@ -16,6 +16,9 @@ export default defineNuxtConfig({
         {src: 'android-launchericon-512-512.png', sizes: '512x512', type: 'image/png'}
       ]
     },
+    workbox: {
+      navigateFallback: '/'
+    },
     devOptions: {
       enabled: true,
       type: 'module'
